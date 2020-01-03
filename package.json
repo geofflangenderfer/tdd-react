@@ -1,0 +1,45 @@
+{
+  "name": "tdd-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "parcel index.html",
+    "lint": "eslint cypress/integration/*.js src/**/*.js test/**/*.js",
+    "unit": "jest test/**/*.spec.js",
+    "e2e": "cypress open"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "babel-core": "^7.0.0-0",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0",
+    "cypress": "^3.8.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "eslint": "^6.7.2",
+    "eslint-config-codingitwrong": "^0.1.4",
+    "eslint-plugin-cypress": "^2.8.1",
+    "eslint-plugin-jest": "^23.1.1",
+    "eslint-plugin-react": "^7.17.0",
+    "jest": "^24.9.0",
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "blob-util": "^2.0.2",
+    "classnames": "^2.2.6",
+    "materialize-css": "^1.0.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-materialize": "^3.5.7"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>test/setup.js"
+  }
+}
