@@ -8,7 +8,7 @@
   "license": "ISC",
   "scripts": {
     "start": "parcel index.html",
-    "lint": "eslint cypress/integration/*.js src/**/*.js test/**/*.js",
+    "lint": "eslint cypress/integration/*.js src test",
     "unit": "jest test/**/*.spec.js",
     "e2e": "cypress open"
   },
